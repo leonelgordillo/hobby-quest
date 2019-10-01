@@ -1,0 +1,972 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		033F0C941F908E100071CAED /* FirebaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033F0C931F908E100071CAED /* FirebaseHelper.swift */; };
+		033F0C961F908F1C0071CAED /* Hobby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033F0C951F908F1C0071CAED /* Hobby.swift */; };
+		035CCC031FA850CE0022A9F0 /* HappyTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035CCC021FA850CE0022A9F0 /* HappyTestViewController.swift */; };
+		036E1DC91F90786300681044 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036E1DC81F90786300681044 /* AppDelegate.swift */; };
+		036E1DCB1F90786300681044 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036E1DCA1F90786300681044 /* QuizViewController.swift */; };
+		036E1DCE1F90786300681044 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036E1DCC1F90786300681044 /* Main.storyboard */; };
+		036E1DD01F90786300681044 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036E1DCF1F90786300681044 /* Assets.xcassets */; };
+		036E1DD31F90786300681044 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036E1DD11F90786300681044 /* LaunchScreen.storyboard */; };
+		036E1DDE1F90786400681044 /* HobbyQuestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036E1DDD1F90786400681044 /* HobbyQuestTests.swift */; };
+		036E1DE91F90786400681044 /* HobbyQuestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036E1DE81F90786400681044 /* HobbyQuestUITests.swift */; };
+		036E1DF91F90792200681044 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 036E1DF81F90792200681044 /* GoogleService-Info.plist */; };
+		0378EB041FDBF7A20023DAE0 /* StatisticsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0378EB031FDBF7A20023DAE0 /* StatisticsCollectionViewCell.swift */; };
+		0378EB061FDC181F0023DAE0 /* SectionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0378EB051FDC181F0023DAE0 /* SectionLabel.swift */; };
+		0378EB0B1FDC443E0023DAE0 /* SpeechBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0378EB0A1FDC443D0023DAE0 /* SpeechBubble.swift */; };
+		0378EB0D1FDCFB5C0023DAE0 /* GradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0378EB0C1FDCFB5C0023DAE0 /* GradientLayer.swift */; };
+		0378EB1C1FDE1F2C0023DAE0 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0378EB1B1FDE1F2C0023DAE0 /* YoshikoTextField.swift */; };
+		0378EB1F1FDE1FC40023DAE0 /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0378EB1E1FDE1FC30023DAE0 /* TextFieldEffects.swift */; };
+		0378EB211FDE23E30023DAE0 /* PMSuperButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0378EB201FDE23E30023DAE0 /* PMSuperButton.swift */; };
+		0378EB2E1FDE3BA50023DAE0 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 0378EB251FDE3BA40023DAE0 /* .gitkeep */; };
+		0378EB2F1FDE3BA50023DAE0 /* Animatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0378EB261FDE3BA40023DAE0 /* Animatable.swift */; };
+		0378EB301FDE3BA50023DAE0 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0378EB271FDE3BA40023DAE0 /* Animation.swift */; };
+		0378EB311FDE3BA50023DAE0 /* AnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0378EB281FDE3BA40023DAE0 /* AnimationType.swift */; };
+		0378EB321FDE3BA50023DAE0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0378EB291FDE3BA40023DAE0 /* Constants.swift */; };
+		0378EB331FDE3BA50023DAE0 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0378EB2A1FDE3BA40023DAE0 /* Direction.swift */; };
+		0378EB341FDE3BA50023DAE0 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0378EB2B1FDE3BA40023DAE0 /* Utilities.swift */; };
+		0378EB351FDE3BA50023DAE0 /* ViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0378EB2C1FDE3BA40023DAE0 /* ViewAnimator.swift */; };
+		0378EB361FDE3BA50023DAE0 /* ViewAnimatorConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0378EB2D1FDE3BA40023DAE0 /* ViewAnimatorConfig.swift */; };
+		03A667E31F984B0E0095EE0F /* JournalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A667E21F984B0E0095EE0F /* JournalTableViewController.swift */; };
+		03A667E51F984CB30095EE0F /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A667E41F984CB30095EE0F /* JournalViewController.swift */; };
+		03A667E71F9852080095EE0F /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A667E61F9852080095EE0F /* JournalEntry.swift */; };
+		03A667E91F9875E90095EE0F /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A667E81F9875E90095EE0F /* EntryViewController.swift */; };
+		03A667EB1F987D320095EE0F /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A667EA1F987D320095EE0F /* KeyboardLayoutConstraint.swift */; };
+		47B1C9B01FB977D600C8EAD3 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B1C9AF1FB977D600C8EAD3 /* CommentViewController.swift */; };
+		47B1C9B21FB977FB00C8EAD3 /* DisplayCommentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B1C9B11FB977FB00C8EAD3 /* DisplayCommentTableViewController.swift */; };
+		47D71F6B1FB6499500B0B2D1 /* SetupDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D71F6A1FB6499500B0B2D1 /* SetupDetailViewController.swift */; };
+		47F686701FB5850500F96000 /* CommunityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F6866F1FB5850500F96000 /* CommunityTableViewController.swift */; };
+		AE4CC9587C8AAF0E4A0A7F1D /* Pods_HobbyQuestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C9FD45AA5B3BC2279084B2 /* Pods_HobbyQuestUITests.framework */; };
+		CE096F701FD88B6000E82FB8 /* ChangePassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE096F6F1FD88B6000E82FB8 /* ChangePassViewController.swift */; };
+		CE349E6A1FBE308D0048160C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE349E691FBE308D0048160C /* ProfileViewController.swift */; };
+		CE499BB31FA0FB7700A939D6 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE499BB21FA0FB7700A939D6 /* ExploreViewController.swift */; };
+		CE61CC341FDA007400ED456C /* HobbyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE61CC331FDA007400ED456C /* HobbyCollectionViewCell.swift */; };
+		CE856BA71FDF4184007C8F05 /* SubThreadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE856BA51FDF4183007C8F05 /* SubThreadViewController.swift */; };
+		CE856BA81FDF4184007C8F05 /* ThreadInfoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE856BA61FDF4184007C8F05 /* ThreadInfoCollectionViewCell.swift */; };
+		CE9AE8671FAA876400A08BBA /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9AE8661FAA876400A08BBA /* DetailsViewController.swift */; };
+		CEC1AE621FDB34D900974BE0 /* TableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1AE611FDB34D900974BE0 /* TableViewCell1.swift */; };
+		CECA769C1FA13147007171D1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA769B1FA13147007171D1 /* LoginViewController.swift */; };
+		CECACE651FAA3DC400FB061F /* ExploreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECACE641FAA3DC400FB061F /* ExploreCell.swift */; };
+		D9CB5C416BE16519FF20426B /* Pods_HobbyQuest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B932CD5446BA4C49FE2E81 /* Pods_HobbyQuest.framework */; };
+		E14607E341F778425A544A55 /* Pods_HobbyQuestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E3A77CE8AB1872EF8E64B8 /* Pods_HobbyQuestTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		036E1DDA1F90786400681044 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 036E1DBD1F90786300681044 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 036E1DC41F90786300681044;
+			remoteInfo = HobbyQuest;
+		};
+		036E1DE51F90786400681044 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 036E1DBD1F90786300681044 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 036E1DC41F90786300681044;
+			remoteInfo = HobbyQuest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033F0C931F908E100071CAED /* FirebaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseHelper.swift; sourceTree = "<group>"; };
+		033F0C951F908F1C0071CAED /* Hobby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hobby.swift; sourceTree = "<group>"; };
+		035CCC021FA850CE0022A9F0 /* HappyTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyTestViewController.swift; sourceTree = "<group>"; };
+		036E1DC51F90786300681044 /* HobbyQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HobbyQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		036E1DC81F90786300681044 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		036E1DCA1F90786300681044 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		036E1DCD1F90786300681044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		036E1DCF1F90786300681044 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		036E1DD21F90786300681044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		036E1DD41F90786300681044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		036E1DD91F90786400681044 /* HobbyQuestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HobbyQuestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		036E1DDD1F90786400681044 /* HobbyQuestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyQuestTests.swift; sourceTree = "<group>"; };
+		036E1DDF1F90786400681044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		036E1DE41F90786400681044 /* HobbyQuestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HobbyQuestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		036E1DE81F90786400681044 /* HobbyQuestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyQuestUITests.swift; sourceTree = "<group>"; };
+		036E1DEA1F90786400681044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		036E1DF81F90792200681044 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0378EB031FDBF7A20023DAE0 /* StatisticsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsCollectionViewCell.swift; sourceTree = "<group>"; };
+		0378EB051FDC181F0023DAE0 /* SectionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionLabel.swift; sourceTree = "<group>"; };
+		0378EB0A1FDC443D0023DAE0 /* SpeechBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechBubble.swift; sourceTree = "<group>"; };
+		0378EB0C1FDCFB5C0023DAE0 /* GradientLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientLayer.swift; sourceTree = "<group>"; };
+		0378EB1B1FDE1F2C0023DAE0 /* YoshikoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoshikoTextField.swift; sourceTree = "<group>"; };
+		0378EB1D1FDE1FC30023DAE0 /* TextFieldEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldEffects.h; sourceTree = "<group>"; };
+		0378EB1E1FDE1FC30023DAE0 /* TextFieldEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldEffects.swift; sourceTree = "<group>"; };
+		0378EB201FDE23E30023DAE0 /* PMSuperButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PMSuperButton.swift; sourceTree = "<group>"; };
+		0378EB251FDE3BA40023DAE0 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		0378EB261FDE3BA40023DAE0 /* Animatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animatable.swift; sourceTree = "<group>"; };
+		0378EB271FDE3BA40023DAE0 /* Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		0378EB281FDE3BA40023DAE0 /* AnimationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationType.swift; sourceTree = "<group>"; };
+		0378EB291FDE3BA40023DAE0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0378EB2A1FDE3BA40023DAE0 /* Direction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		0378EB2B1FDE3BA40023DAE0 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		0378EB2C1FDE3BA40023DAE0 /* ViewAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewAnimator.swift; sourceTree = "<group>"; };
+		0378EB2D1FDE3BA40023DAE0 /* ViewAnimatorConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewAnimatorConfig.swift; sourceTree = "<group>"; };
+		03A667E21F984B0E0095EE0F /* JournalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTableViewController.swift; sourceTree = "<group>"; };
+		03A667E41F984CB30095EE0F /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
+		03A667E61F9852080095EE0F /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		03A667E81F9875E90095EE0F /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		03A667EA1F987D320095EE0F /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		45C9FD45AA5B3BC2279084B2 /* Pods_HobbyQuestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HobbyQuestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47B1C9AF1FB977D600C8EAD3 /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		47B1C9B11FB977FB00C8EAD3 /* DisplayCommentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayCommentTableViewController.swift; sourceTree = "<group>"; };
+		47D71F6A1FB6499500B0B2D1 /* SetupDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupDetailViewController.swift; sourceTree = "<group>"; };
+		47F6866F1FB5850500F96000 /* CommunityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityTableViewController.swift; sourceTree = "<group>"; };
+		621ECD049DD7C10B6B12BE12 /* Pods-HobbyQuest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HobbyQuest.release.xcconfig"; path = "../Pods/Target Support Files/Pods-HobbyQuest/Pods-HobbyQuest.release.xcconfig"; sourceTree = "<group>"; };
+		8186131706F1BFCA875D65BE /* Pods-HobbyQuest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HobbyQuest.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-HobbyQuest/Pods-HobbyQuest.debug.xcconfig"; sourceTree = "<group>"; };
+		874DFBEDD27AB4A6ACFF196E /* Pods-HobbyQuestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HobbyQuestUITests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-HobbyQuestUITests/Pods-HobbyQuestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8932FF8C174CAF7202FE37D0 /* Pods-HobbyQuestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HobbyQuestUITests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-HobbyQuestUITests/Pods-HobbyQuestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		91B932CD5446BA4C49FE2E81 /* Pods_HobbyQuest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HobbyQuest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98E3A77CE8AB1872EF8E64B8 /* Pods_HobbyQuestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HobbyQuestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CE6AC3B6880C72B08FC2284 /* Pods-HobbyQuestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HobbyQuestTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-HobbyQuestTests/Pods-HobbyQuestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B15184E7B925C586B083F760 /* Pods-HobbyQuestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HobbyQuestTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-HobbyQuestTests/Pods-HobbyQuestTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE096F6F1FD88B6000E82FB8 /* ChangePassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePassViewController.swift; sourceTree = "<group>"; };
+		CE349E691FBE308D0048160C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CE499BB21FA0FB7700A939D6 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		CE61CC331FDA007400ED456C /* HobbyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE856BA51FDF4183007C8F05 /* SubThreadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubThreadViewController.swift; sourceTree = "<group>"; };
+		CE856BA61FDF4184007C8F05 /* ThreadInfoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadInfoCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE9AE8661FAA876400A08BBA /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		CEC1AE611FDB34D900974BE0 /* TableViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell1.swift; sourceTree = "<group>"; };
+		CECA769B1FA13147007171D1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CECACE641FAA3DC400FB061F /* ExploreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		036E1DC21F90786300681044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CB5C416BE16519FF20426B /* Pods_HobbyQuest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036E1DD61F90786400681044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14607E341F778425A544A55 /* Pods_HobbyQuestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036E1DE11F90786400681044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4CC9587C8AAF0E4A0A7F1D /* Pods_HobbyQuestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		036E1DBC1F90786300681044 = {
+			isa = PBXGroup;
+			children = (
+				036E1DC71F90786300681044 /* HobbyQuest */,
+				036E1DDC1F90786400681044 /* HobbyQuestTests */,
+				036E1DE71F90786400681044 /* HobbyQuestUITests */,
+				036E1DC61F90786300681044 /* Products */,
+				380CF30DCA76429489FADB54 /* Pods */,
+				CD443F27BE21ACA0949E6660 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		036E1DC61F90786300681044 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				036E1DC51F90786300681044 /* HobbyQuest.app */,
+				036E1DD91F90786400681044 /* HobbyQuestTests.xctest */,
+				036E1DE41F90786400681044 /* HobbyQuestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		036E1DC71F90786300681044 /* HobbyQuest */ = {
+			isa = PBXGroup;
+			children = (
+				036E1DF81F90792200681044 /* GoogleService-Info.plist */,
+				036E1DC81F90786300681044 /* AppDelegate.swift */,
+				036E1DCC1F90786300681044 /* Main.storyboard */,
+				036E1DCF1F90786300681044 /* Assets.xcassets */,
+				036E1DD11F90786300681044 /* LaunchScreen.storyboard */,
+				036E1DD41F90786300681044 /* Info.plist */,
+				0378EB081FDC199A0023DAE0 /* Helpers */,
+				0378EB071FDC182F0023DAE0 /* UserInterface */,
+				0378EB091FDC19A90023DAE0 /* Journal */,
+				033F0C951F908F1C0071CAED /* Hobby.swift */,
+				CE856BA61FDF4184007C8F05 /* ThreadInfoCollectionViewCell.swift */,
+				CE856BA51FDF4183007C8F05 /* SubThreadViewController.swift */,
+				CECA769B1FA13147007171D1 /* LoginViewController.swift */,
+				036E1DCA1F90786300681044 /* QuizViewController.swift */,
+				CE499BB21FA0FB7700A939D6 /* ExploreViewController.swift */,
+				CECACE641FAA3DC400FB061F /* ExploreCell.swift */,
+				CE61CC331FDA007400ED456C /* HobbyCollectionViewCell.swift */,
+				CE9AE8661FAA876400A08BBA /* DetailsViewController.swift */,
+				47F6866F1FB5850500F96000 /* CommunityTableViewController.swift */,
+				47D71F6A1FB6499500B0B2D1 /* SetupDetailViewController.swift */,
+				47B1C9AF1FB977D600C8EAD3 /* CommentViewController.swift */,
+				47B1C9B11FB977FB00C8EAD3 /* DisplayCommentTableViewController.swift */,
+				CE349E691FBE308D0048160C /* ProfileViewController.swift */,
+				CE096F6F1FD88B6000E82FB8 /* ChangePassViewController.swift */,
+				CEC1AE611FDB34D900974BE0 /* TableViewCell1.swift */,
+			);
+			path = HobbyQuest;
+			sourceTree = "<group>";
+		};
+		036E1DDC1F90786400681044 /* HobbyQuestTests */ = {
+			isa = PBXGroup;
+			children = (
+				036E1DDD1F90786400681044 /* HobbyQuestTests.swift */,
+				036E1DDF1F90786400681044 /* Info.plist */,
+			);
+			path = HobbyQuestTests;
+			sourceTree = "<group>";
+		};
+		036E1DE71F90786400681044 /* HobbyQuestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				036E1DE81F90786400681044 /* HobbyQuestUITests.swift */,
+				036E1DEA1F90786400681044 /* Info.plist */,
+			);
+			path = HobbyQuestUITests;
+			sourceTree = "<group>";
+		};
+		0378EB071FDC182F0023DAE0 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				0378EB241FDE3BA40023DAE0 /* ViewAnimator */,
+				0378EB201FDE23E30023DAE0 /* PMSuperButton.swift */,
+				0378EB1D1FDE1FC30023DAE0 /* TextFieldEffects.h */,
+				0378EB1E1FDE1FC30023DAE0 /* TextFieldEffects.swift */,
+				0378EB1B1FDE1F2C0023DAE0 /* YoshikoTextField.swift */,
+				0378EB0C1FDCFB5C0023DAE0 /* GradientLayer.swift */,
+				03A667EA1F987D320095EE0F /* KeyboardLayoutConstraint.swift */,
+				0378EB0A1FDC443D0023DAE0 /* SpeechBubble.swift */,
+				0378EB051FDC181F0023DAE0 /* SectionLabel.swift */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		0378EB081FDC199A0023DAE0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				033F0C931F908E100071CAED /* FirebaseHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0378EB091FDC19A90023DAE0 /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				03A667E61F9852080095EE0F /* JournalEntry.swift */,
+				03A667E41F984CB30095EE0F /* JournalViewController.swift */,
+				0378EB031FDBF7A20023DAE0 /* StatisticsCollectionViewCell.swift */,
+				03A667E81F9875E90095EE0F /* EntryViewController.swift */,
+				035CCC021FA850CE0022A9F0 /* HappyTestViewController.swift */,
+				03A667E21F984B0E0095EE0F /* JournalTableViewController.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		0378EB241FDE3BA40023DAE0 /* ViewAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				0378EB251FDE3BA40023DAE0 /* .gitkeep */,
+				0378EB261FDE3BA40023DAE0 /* Animatable.swift */,
+				0378EB271FDE3BA40023DAE0 /* Animation.swift */,
+				0378EB281FDE3BA40023DAE0 /* AnimationType.swift */,
+				0378EB291FDE3BA40023DAE0 /* Constants.swift */,
+				0378EB2A1FDE3BA40023DAE0 /* Direction.swift */,
+				0378EB2B1FDE3BA40023DAE0 /* Utilities.swift */,
+				0378EB2C1FDE3BA40023DAE0 /* ViewAnimator.swift */,
+				0378EB2D1FDE3BA40023DAE0 /* ViewAnimatorConfig.swift */,
+			);
+			path = ViewAnimator;
+			sourceTree = "<group>";
+		};
+		380CF30DCA76429489FADB54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8186131706F1BFCA875D65BE /* Pods-HobbyQuest.debug.xcconfig */,
+				621ECD049DD7C10B6B12BE12 /* Pods-HobbyQuest.release.xcconfig */,
+				9CE6AC3B6880C72B08FC2284 /* Pods-HobbyQuestTests.debug.xcconfig */,
+				B15184E7B925C586B083F760 /* Pods-HobbyQuestTests.release.xcconfig */,
+				8932FF8C174CAF7202FE37D0 /* Pods-HobbyQuestUITests.debug.xcconfig */,
+				874DFBEDD27AB4A6ACFF196E /* Pods-HobbyQuestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD443F27BE21ACA0949E6660 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91B932CD5446BA4C49FE2E81 /* Pods_HobbyQuest.framework */,
+				98E3A77CE8AB1872EF8E64B8 /* Pods_HobbyQuestTests.framework */,
+				45C9FD45AA5B3BC2279084B2 /* Pods_HobbyQuestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		036E1DC41F90786300681044 /* HobbyQuest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036E1DED1F90786400681044 /* Build configuration list for PBXNativeTarget "HobbyQuest" */;
+			buildPhases = (
+				FE69C319D492A919B9B5F0CA /* [CP] Check Pods Manifest.lock */,
+				036E1DC11F90786300681044 /* Sources */,
+				036E1DC21F90786300681044 /* Frameworks */,
+				036E1DC31F90786300681044 /* Resources */,
+				FF17132C923A8EB4BA7F77AA /* [CP] Embed Pods Frameworks */,
+				E40A518D5173057961D8D572 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HobbyQuest;
+			productName = HobbyQuest;
+			productReference = 036E1DC51F90786300681044 /* HobbyQuest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		036E1DD81F90786400681044 /* HobbyQuestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036E1DF01F90786400681044 /* Build configuration list for PBXNativeTarget "HobbyQuestTests" */;
+			buildPhases = (
+				70F55348F2329B99C4B85A37 /* [CP] Check Pods Manifest.lock */,
+				036E1DD51F90786400681044 /* Sources */,
+				036E1DD61F90786400681044 /* Frameworks */,
+				036E1DD71F90786400681044 /* Resources */,
+				FFFB50B22EBF17A95D893F1C /* [CP] Embed Pods Frameworks */,
+				3415001D407270C2EE1FFAF2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				036E1DDB1F90786400681044 /* PBXTargetDependency */,
+			);
+			name = HobbyQuestTests;
+			productName = HobbyQuestTests;
+			productReference = 036E1DD91F90786400681044 /* HobbyQuestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		036E1DE31F90786400681044 /* HobbyQuestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036E1DF31F90786400681044 /* Build configuration list for PBXNativeTarget "HobbyQuestUITests" */;
+			buildPhases = (
+				A68BE26B45A89BDBA50B3608 /* [CP] Check Pods Manifest.lock */,
+				036E1DE01F90786400681044 /* Sources */,
+				036E1DE11F90786400681044 /* Frameworks */,
+				036E1DE21F90786400681044 /* Resources */,
+				95B0D2AC24C71FB8D0C57965 /* [CP] Embed Pods Frameworks */,
+				D1240D0EA6BE20FC8013F307 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				036E1DE61F90786400681044 /* PBXTargetDependency */,
+			);
+			name = HobbyQuestUITests;
+			productName = HobbyQuestUITests;
+			productReference = 036E1DE41F90786400681044 /* HobbyQuestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		036E1DBD1F90786300681044 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Monica Tran";
+				TargetAttributes = {
+					036E1DC41F90786300681044 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					036E1DD81F90786400681044 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 036E1DC41F90786300681044;
+					};
+					036E1DE31F90786400681044 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 036E1DC41F90786300681044;
+					};
+				};
+			};
+			buildConfigurationList = 036E1DC01F90786300681044 /* Build configuration list for PBXProject "HobbyQuest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 036E1DBC1F90786300681044;
+			productRefGroup = 036E1DC61F90786300681044 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				036E1DC41F90786300681044 /* HobbyQuest */,
+				036E1DD81F90786400681044 /* HobbyQuestTests */,
+				036E1DE31F90786400681044 /* HobbyQuestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		036E1DC31F90786300681044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036E1DD31F90786300681044 /* LaunchScreen.storyboard in Resources */,
+				036E1DF91F90792200681044 /* GoogleService-Info.plist in Resources */,
+				0378EB2E1FDE3BA50023DAE0 /* .gitkeep in Resources */,
+				036E1DD01F90786300681044 /* Assets.xcassets in Resources */,
+				036E1DCE1F90786300681044 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036E1DD71F90786400681044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036E1DE21F90786400681044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3415001D407270C2EE1FFAF2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-HobbyQuestTests/Pods-HobbyQuestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70F55348F2329B99C4B85A37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HobbyQuestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95B0D2AC24C71FB8D0C57965 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-HobbyQuestUITests/Pods-HobbyQuestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A68BE26B45A89BDBA50B3608 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HobbyQuestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1240D0EA6BE20FC8013F307 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-HobbyQuestUITests/Pods-HobbyQuestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E40A518D5173057961D8D572 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-HobbyQuest/Pods-HobbyQuest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE69C319D492A919B9B5F0CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HobbyQuest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF17132C923A8EB4BA7F77AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-HobbyQuest/Pods-HobbyQuest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-HobbyQuest/Pods-HobbyQuest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFFB50B22EBF17A95D893F1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-HobbyQuestTests/Pods-HobbyQuestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		036E1DC11F90786300681044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F686701FB5850500F96000 /* CommunityTableViewController.swift in Sources */,
+				0378EB0B1FDC443E0023DAE0 /* SpeechBubble.swift in Sources */,
+				47D71F6B1FB6499500B0B2D1 /* SetupDetailViewController.swift in Sources */,
+				0378EB311FDE3BA50023DAE0 /* AnimationType.swift in Sources */,
+				033F0C961F908F1C0071CAED /* Hobby.swift in Sources */,
+				0378EB041FDBF7A20023DAE0 /* StatisticsCollectionViewCell.swift in Sources */,
+				CE61CC341FDA007400ED456C /* HobbyCollectionViewCell.swift in Sources */,
+				0378EB061FDC181F0023DAE0 /* SectionLabel.swift in Sources */,
+				0378EB0D1FDCFB5C0023DAE0 /* GradientLayer.swift in Sources */,
+				036E1DCB1F90786300681044 /* QuizViewController.swift in Sources */,
+				03A667E71F9852080095EE0F /* JournalEntry.swift in Sources */,
+				CE096F701FD88B6000E82FB8 /* ChangePassViewController.swift in Sources */,
+				CE499BB31FA0FB7700A939D6 /* ExploreViewController.swift in Sources */,
+				CE349E6A1FBE308D0048160C /* ProfileViewController.swift in Sources */,
+				03A667EB1F987D320095EE0F /* KeyboardLayoutConstraint.swift in Sources */,
+				CE856BA81FDF4184007C8F05 /* ThreadInfoCollectionViewCell.swift in Sources */,
+				036E1DC91F90786300681044 /* AppDelegate.swift in Sources */,
+				03A667E91F9875E90095EE0F /* EntryViewController.swift in Sources */,
+				CE856BA71FDF4184007C8F05 /* SubThreadViewController.swift in Sources */,
+				0378EB1C1FDE1F2C0023DAE0 /* YoshikoTextField.swift in Sources */,
+				03A667E31F984B0E0095EE0F /* JournalTableViewController.swift in Sources */,
+				033F0C941F908E100071CAED /* FirebaseHelper.swift in Sources */,
+				CECA769C1FA13147007171D1 /* LoginViewController.swift in Sources */,
+				0378EB301FDE3BA50023DAE0 /* Animation.swift in Sources */,
+				035CCC031FA850CE0022A9F0 /* HappyTestViewController.swift in Sources */,
+				0378EB211FDE23E30023DAE0 /* PMSuperButton.swift in Sources */,
+				CE9AE8671FAA876400A08BBA /* DetailsViewController.swift in Sources */,
+				0378EB1F1FDE1FC40023DAE0 /* TextFieldEffects.swift in Sources */,
+				03A667E51F984CB30095EE0F /* JournalViewController.swift in Sources */,
+				CEC1AE621FDB34D900974BE0 /* TableViewCell1.swift in Sources */,
+				0378EB2F1FDE3BA50023DAE0 /* Animatable.swift in Sources */,
+				0378EB361FDE3BA50023DAE0 /* ViewAnimatorConfig.swift in Sources */,
+				0378EB341FDE3BA50023DAE0 /* Utilities.swift in Sources */,
+				CECACE651FAA3DC400FB061F /* ExploreCell.swift in Sources */,
+				47B1C9B21FB977FB00C8EAD3 /* DisplayCommentTableViewController.swift in Sources */,
+				0378EB331FDE3BA50023DAE0 /* Direction.swift in Sources */,
+				47B1C9B01FB977D600C8EAD3 /* CommentViewController.swift in Sources */,
+				0378EB321FDE3BA50023DAE0 /* Constants.swift in Sources */,
+				0378EB351FDE3BA50023DAE0 /* ViewAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036E1DD51F90786400681044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036E1DDE1F90786400681044 /* HobbyQuestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036E1DE01F90786400681044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036E1DE91F90786400681044 /* HobbyQuestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		036E1DDB1F90786400681044 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 036E1DC41F90786300681044 /* HobbyQuest */;
+			targetProxy = 036E1DDA1F90786400681044 /* PBXContainerItemProxy */;
+		};
+		036E1DE61F90786400681044 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 036E1DC41F90786300681044 /* HobbyQuest */;
+			targetProxy = 036E1DE51F90786400681044 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		036E1DCC1F90786300681044 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				036E1DCD1F90786300681044 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		036E1DD11F90786300681044 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				036E1DD21F90786300681044 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		036E1DEB1F90786400681044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		036E1DEC1F90786400681044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		036E1DEE1F90786400681044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8186131706F1BFCA875D65BE /* Pods-HobbyQuest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NVWM8T74F;
+				INFOPLIST_FILE = HobbyQuest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Team7.Hobby-Quest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		036E1DEF1F90786400681044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 621ECD049DD7C10B6B12BE12 /* Pods-HobbyQuest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NVWM8T74F;
+				INFOPLIST_FILE = HobbyQuest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Team7.Hobby-Quest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		036E1DF11F90786400681044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CE6AC3B6880C72B08FC2284 /* Pods-HobbyQuestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JA85M6789V;
+				INFOPLIST_FILE = HobbyQuestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Team7.HobbyQuestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HobbyQuest.app/HobbyQuest";
+			};
+			name = Debug;
+		};
+		036E1DF21F90786400681044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B15184E7B925C586B083F760 /* Pods-HobbyQuestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JA85M6789V;
+				INFOPLIST_FILE = HobbyQuestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Team7.HobbyQuestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HobbyQuest.app/HobbyQuest";
+			};
+			name = Release;
+		};
+		036E1DF41F90786400681044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8932FF8C174CAF7202FE37D0 /* Pods-HobbyQuestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JA85M6789V;
+				INFOPLIST_FILE = HobbyQuestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Team7.HobbyQuestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HobbyQuest;
+			};
+			name = Debug;
+		};
+		036E1DF51F90786400681044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 874DFBEDD27AB4A6ACFF196E /* Pods-HobbyQuestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JA85M6789V;
+				INFOPLIST_FILE = HobbyQuestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Team7.HobbyQuestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HobbyQuest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		036E1DC01F90786300681044 /* Build configuration list for PBXProject "HobbyQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036E1DEB1F90786400681044 /* Debug */,
+				036E1DEC1F90786400681044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036E1DED1F90786400681044 /* Build configuration list for PBXNativeTarget "HobbyQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036E1DEE1F90786400681044 /* Debug */,
+				036E1DEF1F90786400681044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036E1DF01F90786400681044 /* Build configuration list for PBXNativeTarget "HobbyQuestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036E1DF11F90786400681044 /* Debug */,
+				036E1DF21F90786400681044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036E1DF31F90786400681044 /* Build configuration list for PBXNativeTarget "HobbyQuestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036E1DF41F90786400681044 /* Debug */,
+				036E1DF51F90786400681044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 036E1DBD1F90786300681044 /* Project object */;
+}
